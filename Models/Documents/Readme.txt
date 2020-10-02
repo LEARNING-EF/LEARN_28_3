@@ -34,7 +34,7 @@ Nullable
 
 تعریف کرده و یا برای آن
 
-DefaultValue and DefaultDatabaseValue
+defaultValue && defaultValueSql
 
 تغیین نماییم
 

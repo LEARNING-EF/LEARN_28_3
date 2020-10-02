@@ -7,6 +7,8 @@ namespace Models.Migrations
 		public override void Up()
 		{
 			AddColumn("dbo.People", "SomeProperty", c => c.String());
+
+			//AddColumn("dbo.People", "SomeRequiredProperty", c => c.String(defaultValue: "Hello", defaultValueSql: "Hello"));
 		}
 
 		public override void Down()
